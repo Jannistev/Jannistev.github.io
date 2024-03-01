@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Portfolio Jannis te Veluwe</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+
+</head>
+
+<body id="body">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid flex-grow-1">
+            <div class="navbar-brand"><b>Portfolio</b></div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item" style="margin-right: 20px;">
+                        <a class="nav-link bi bi-house-door-fill" href="Portfolio_Home.html"></a>
+                    </li>
+                    <li class="nav-item" style="margin-right: 20px;">
+                        <a class="nav-link" href="Portfolio_Skills.html"><b>Skills</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><b>Projecten</b></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- /Navbar -->
+
+    <!-- buttons -->
+    <div class="container">
+        <div class="row my-5">
+            <div class="col col-12 col-lg-6 text-center">
+                <div>
+                    <div class="h3" for="cars"><b>Engine</b></div>
+                </div>
+                <div>
+                    <select class="fs-3" name="engine" id="engine">
+                        <option value="all" data-filter="all">All</option>
+                        <option value="unity" data-filter="unity">Unity</option>
+                        <option value="monogame" data-filter="monogame">Monogame</option>
+                        <option value="csharp" data-filter="csharp">Csharp</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col col-12 col-lg-6 text-center">
+                <div>
+                    <div class="h3" for="device"><b>Device</b></div>
+                </div>
+                <div>
+                    <select class="fs-3" name="device" id="device">
+                        <option value="all" data-filter="all">All</option>
+                        <option value="phone" data-filter="phone">Phone</option>
+                        <option value="pc" data-filter="pc">Pc</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projecten-->
+    <div class="container text-center justify-content-center align-items-center">
+        <div class="row d-flex justify-content-center text-center">
+            <div class="col col-12 col-lg-4">
+                <div class="card mt-5 border-secondary" style="width: 100%; padding: 5px; min-height: 520px;" data-tags="unity,phone,all">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"
+                        data-bs-pause="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="Images/PirateTroveTussle/PirateTroveTussle_Img01.png"
+                                    class="d-block img-fluid" alt="PirateTroveTussle_Img01"
+                                    style=" height: 340px; width:100%;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/PirateTroveTussle/PirateTroveTussle_Img02.png"
+                                    class="d-block img-fluid" alt="PirateTroveTussle_Img02"
+                                    style=" height: 340px; width:100%">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/PirateTroveTussle/PirateTroveTussle_Img03.jpg"
+                                    class="d-block img-fluid" alt="PirateTroveTussle_Img03"
+                                    style=" height: 340px; width:100%">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">
+                            <span class="bi bi-unity"></span> <b>Pirate Trove Tussle</b>
+                            <span class="bi bi-android2"></span>
+                        </h5>
+                        <p class="card-text">schoolproject - gemaakt in 4 weken tijd door 5 personen</p>
+                        <a href="https://github.com/Jannistev" class="btn btn-primary" target="_blank">Lees meer</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-12 col-lg-4">
+                <div class="card mt-5 border-secondary" style="width: 100%; padding: 5px; min-height: 520px;" data-tags="monogame,pc,all">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"
+                        data-bs-pause="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="Images/SpaceShooter/SpaceShooter_Img01.png" class="d-block img-fluid"
+                                    alt="Spaceshooter_Img01" style=" height: 340px; width:100%;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/SpaceShooter/SpaceShooter_Img02.png" class="d-block img-fluid"
+                                    alt="Spaceshooter_Img02" style=" height: 340px; width:100%">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/SpaceShooter/SpaceShooter_Img03.png" class="d-block img-fluid"
+                                    alt="Spaceshooter_Img03" style=" height: 340px; width:100%">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">
+                            <img src="Images/Logo's/Monogame_Logo.png" alt="Monogame_logo"
+                                style="height:fit-content; width:20px;"> <b>Space Chaosity</b>
+                            <span class="bi bi-display"></span>
+                        </h5>
+                        <p class="card-text">schoolproject - spaceshooter gemaakt door mij in monogame</p>
+                        <a href="https://github.com/Jannistev" class="btn btn-primary" target="_blank">Lees meer</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-12 col-lg-4">
+                <div class="card mt-5 border-secondary" style="width: 100%; padding: 5px; min-height: 520px;" data-tags="unity,pc,all">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"
+                        data-bs-pause="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="Images/NotenRaper/NotenRaper_Img01.png" class="d-block img-fluid"
+                                    alt="NotenRaper_Img01" style=" height: 340px; width:100%;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/NotenRaper/NotenRaper_Img02.png" class="d-block img-fluid"
+                                    alt="NotenRaper_Img02" style=" height: 340px; width:100%">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/NotenRaper/NotenRaper_Img03.png" class="d-block img-fluid"
+                                    alt="NotenRaper_Img03" style=" height: 340px; width:100%">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/NotenRaper/NotenRaper_Img04.png" class="d-block img-fluid"
+                                    alt="NotenRaper_Img04" style=" height: 340px; width:100%">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">
+                            <span class="bi bi-unity"></span> <b>Notenraper</b>
+                            <span class="bi bi-display"></span>
+                        </h5>
+                        <p class="card-text">schoolproject - gemaakt in 4 weken tijd door 4 personen</p>
+                        <a href="https://github.com/Jannistev" class="btn btn-primary" target="_blank">Lees meer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col col-12 col-lg-4">
+                <div class="card mt-5 border-secondary" style="width: 100%; padding: 5px; min-height: 520px;" data-tags="csharp,pc,all">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"
+                        data-bs-pause="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="Images/EscapeFromGurt/EscapeFromGurt_Img01.png" class="d-block img-fluid"
+                                    alt="EscapeFromGurt_Img01" style=" height: 340px; width:100%;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/EscapeFromGurt/EscapeFromGurt_Img02.png" class="d-block img-fluid"
+                                    alt="EscapeFromGurt_Img02" style=" height: 340px; width:100%">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/EscapeFromGurt/EscapeFromGurt_Img03.png" class="d-block img-fluid"
+                                    alt="EscapeFromGurt_Img03" style=" height: 340px; width:100%">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/EscapeFromGurt/EscapeFromGurt_Img04.png" class="d-block img-fluid"
+                                    alt="EscapeFromGurt_Img04" style=" height: 340px; width:100%">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">
+                            <span class="bi bi-filetype-cs"></span> <b>Escape From Gurt</b>
+                            <span class="bi bi-display"></span>
+                        </h5>
+                        <p class="card-text">schoolproject - textadventure gemaakt in het eerste in 4 weken</p>
+                        <a href="https://github.com/Jannistev" class="btn btn-primary" target="_blank">Lees meer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="ProjectSelector.js"></script>
+</body>
