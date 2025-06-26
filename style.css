@@ -4,9 +4,9 @@
    background-position: center;
    background-attachment: fixed;
    height: 100vh;
-   font-family: Arial;
+   font-family: 'ADLaM Display', cursive;
 } 
-.progress {
+#progressbar {
     border: 1px solid black;
 }
 #PhotoMyself {
