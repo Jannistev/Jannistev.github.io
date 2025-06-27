@@ -58,7 +58,10 @@ const data = [
             "Images/GatherGround/GatherGround_Img02.png",
             "Images/GatherGround/GatherGround_Img03.png",
             "Images/GatherGround/GatherGround_Img04.png",
-            "Images/GatherGround/GatherGround_vid01.mp4"
+            "Images/GatherGround/GatherGround_vid01.mp4",
+            "Images/GatherGround/GatherGround_CodeSnippet01.png",
+            "Images/GatherGround/GatherGround_CodeSnippet02.png",
+            "Images/GatherGround/GatherGround_CodeSnippet03.png"
         ],
         "description": "schoolproject - Unity project waar je verschillende components moest hergebruiken",
         "link": "https://github.com/Jannistev/GatherGround"
